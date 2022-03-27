@@ -1,4 +1,5 @@
 //Some comment
+//Yet another stashy comment
 class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("New change 1");
