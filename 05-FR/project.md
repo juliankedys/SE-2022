@@ -18,8 +18,8 @@ Specification of functional requirements as part of computerisation of the produ
 1. [Seller](#ac1) offers the product at an auction. ([UC1](#uc1))
 2. [Buyer](#ac2) offers a bid for the product that is higher than the currently highest bid. ([BR1](#br1))
 3. [Buyer](#ac2) wins the auction ([BR2](#br2))
-4. [Buyer](#ac2) transfers the amount due to the Seller.
-5. [Seller](#ac1) transfers the product to the Buyer.
+4. [Buyer](#ac2) transfers the amount due to the Seller. ([UC2](#uc2))
+5. [Seller](#ac1) transfers the product to the Buyer. ([UC2](#uc2))
 
 **Alternative scenarios:** 
 
@@ -50,10 +50,10 @@ A person intending to purchase a product at an auction..
 
 [Seller](#ac1):
 * [UC1](#uc1): Offering a product at an auction
-* ...
+* [UC2](#uc2): Selling the product at the highest price possible
 
 [Buyer](#ac2):
-* ...
+* [UC1](#uc2): Making a bid for the product
 
 ---
 <a id="uc1"></a>
@@ -77,12 +77,13 @@ A person intending to purchase a product at an auction..
 ---
 
 <a id="uc2"></a>
-### UC2: ...
+### UC2: Transferring money and the product to appropriate sides
 
 **Actors:** [Seller](#ac1), [Buyer](#ac2), ...
 
 **Main scenario:**
-1. ...
+1. 
+2. 
 
 **Alternative scenarios:** 
 
